@@ -5,12 +5,12 @@ import Form from "../components/home/Form"
 
 const Home = () => {
   return (
-    <>
+    <div className="flex flex-col">
       <Navigation />
       <Landing />
       <Services />
       <Form />
-    </>
+    </div>
   )
 }
 

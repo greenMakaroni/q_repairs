@@ -1,7 +1,7 @@
 
 const Form = () => {
   return (
-    <div className="flex w-[100vw] h-[100vh] border-2 border-red-400">Form</div>
+    <div className="m-0 flex w-[100vw] h-[100vh]">Form</div>
   )
 }
 
