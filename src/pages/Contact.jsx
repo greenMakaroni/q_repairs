@@ -1,7 +1,9 @@
-
+import Navigation from "../components/navigation/Navigation"
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <>
+      <Navigation />
+    </>
   )
 }
 
