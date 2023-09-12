@@ -8,7 +8,7 @@ const MobileNav = () => {
 
   const NavigationMenu = () => {
     return (
-      <nav className="navigation-menu" style={ open ? { animation: "none" } : { animation: "menuAppear-Mobile ease 0.3s" } }>
+      <nav className="navigation-menu z-30" style={ open ? { animation: "none" } : { animation: "menuAppear-Mobile ease 0.3s" } }>
 
         <Link 
           to="/" 
