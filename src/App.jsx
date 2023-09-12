@@ -1,10 +1,12 @@
-
+/* Router & Navigation*/
+import { RouterProvider} from "react-router-dom"
+import router from "./router.jsx"
 
 function App() {
 
   return (
     <>
-      <p>kappens</p>
+       <RouterProvider router={router} />
     </>
   )
 }
