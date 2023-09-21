@@ -11,7 +11,7 @@ const Landing = () => {
             <TypeTextAnimation />
             <p className={`text-white z-20 font-['Open_Sans'] text-[1.2rem] mt-[20px] opacity-0 ${isVisible && "animate-elementIn"}`}> Technology nerds based in Loughborough, dying to take a dive inside a case of your machine! </p>
             <div className="m-0 absolute bottom-[10vh] flex flex-row justify-center w-[100vw]">
-                <button className="flex px-[30px] py-[15px] border-4 border-green-400 hover:bg-green-400 rounded-xl text-white hover:text-black z-20 font-[700] "> Get a FREE quote! </button>
+                <button className="flex px-[30px] py-[15px] border-4 border-green-400 hover:bg-green-400 text-white hover:text-black z-20 font-[700] "> Get a FREE quote! </button>
             </div>
         </div>
     )
