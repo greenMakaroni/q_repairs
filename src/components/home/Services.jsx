@@ -23,7 +23,7 @@ const Services = () => {
           <img src={Upgrade} alt="diagnosis icon" className="mb-[40px] h-[90px] m-0 p-0" />
         </Card>
 
-        <Card buttonText="Instructions" title="Remote repair" text="Drop in your device in person or send it by post, make sure to fill out the form before you send us your device." >
+        <Card buttonText="Instructions" title="Remote repair" text="Drop in your device in person or send it by the postal service." >
           <img src={Mail} alt="diagnosis icon" className="mb-[40px] h-[90px] m-0 p-0" />
         </Card>
       </div>
